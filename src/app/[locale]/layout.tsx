@@ -1,3 +1,4 @@
+import Script from 'next/script';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import { NextIntlClientProvider } from 'next-intl';
@@ -40,6 +41,9 @@ export async function generateMetadata({ params: { locale } }: { params: { local
       canonical: canonicalUrl,
       languages: alternateLanguages,
     },
+    other: {
+      'google-adsense-account': 'ca-pub-9279583389810634',
+    },
   };
 }
 
@@ -61,6 +65,12 @@ export default async function LocaleLayout({
     <html lang={locale === 'zh-hant' ? 'zh-Hant' : locale} suppressHydrationWarning>
       <head>
         <link rel="icon" href="/favicon.ico" />
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9279583389810634"
+          crossOrigin="anonymous"
+          strategy="lazyOnload"
+        />
       </head>
       <body className={inter.className}>
         <NextIntlClientProvider messages={messages}>
