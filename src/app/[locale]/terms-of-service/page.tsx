@@ -1,6 +1,26 @@
-'use client';
 import { useLocale } from 'next-intl';
 import Link from 'next/link';
+
+export async function generateMetadata({ params: { locale } }: { params: { locale: string } }) {
+  const baseUrl = 'https://www.piazzapopoloascoli.com';
+  const path = '/terms-of-service';
+
+  const alternateLanguages: Record<string, string> = {
+    'it': `${baseUrl}/it${path}`,
+    'en': `${baseUrl}/en${path}`,
+    'fr': `${baseUrl}/fr${path}`,
+    'zh-Hant': `${baseUrl}/zh-hant${path}`,
+    'x-default': `${baseUrl}/en${path}`,
+  };
+
+  return {
+    title: 'Terms of Service - Piazza del Popolo',
+    alternates: {
+      canonical: `${baseUrl}/${locale}${path}`,
+      languages: alternateLanguages,
+    },
+  };
+}
 
 export default function TermsOfServicePage() {
   const locale = useLocale();

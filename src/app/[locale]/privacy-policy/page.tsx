@@ -1,6 +1,26 @@
-'use client';
 import { useLocale } from 'next-intl';
 import Link from 'next/link';
+
+export async function generateMetadata({ params: { locale } }: { params: { locale: string } }) {
+  const baseUrl = 'https://www.piazzapopoloascoli.com';
+  const path = '/privacy-policy';
+
+  const alternateLanguages: Record<string, string> = {
+    'it': `${baseUrl}/it${path}`,
+    'en': `${baseUrl}/en${path}`,
+    'fr': `${baseUrl}/fr${path}`,
+    'zh-Hant': `${baseUrl}/zh-hant${path}`,
+    'x-default': `${baseUrl}/en${path}`,
+  };
+
+  return {
+    title: 'Privacy Policy - Piazza del Popolo',
+    alternates: {
+      canonical: `${baseUrl}/${locale}${path}`,
+      languages: alternateLanguages,
+    },
+  };
+}
 
 export default function PrivacyPolicyPage() {
   const locale = useLocale();

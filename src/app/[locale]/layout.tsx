@@ -15,21 +15,29 @@ export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
 }
 
-export async function generateMetadata(): Promise<Metadata> {
+export async function generateMetadata({ params: { locale } }: { params: { locale: string } }): Promise<Metadata> {
   const messages = await getMessages();
   const meta = (messages as Record<string, Record<string, string>>).meta;
 
+  const baseUrl = 'https://www.piazzapopoloascoli.com';
+  
+  // Base alternate languages for the home page (or base path)
   const alternateLanguages: Record<string, string> = {
-    'it': 'https://piazzapopoloascoli.com',
-    'en': 'https://piazzapopoloascoli.com/en',
-    'fr': 'https://piazzapopoloascoli.com/fr',
-    'zh-Hant': 'https://piazzapopoloascoli.com/zh-hant',
+    'it': `${baseUrl}/it`,
+    'en': `${baseUrl}/en`,
+    'fr': `${baseUrl}/fr`,
+    'zh-Hant': `${baseUrl}/zh-hant`,
+    'x-default': `${baseUrl}/en`,
   };
+
+  const canonicalUrl = `${baseUrl}/${locale}`;
 
   return {
     title: meta?.title || 'Piazza del Popolo, Ascoli Piceno',
     description: meta?.description || 'Guida turistica indipendente',
+    metadataBase: new URL(baseUrl),
     alternates: {
+      canonical: canonicalUrl,
       languages: alternateLanguages,
     },
   };
