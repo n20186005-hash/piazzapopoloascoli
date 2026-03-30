@@ -4,7 +4,7 @@ import { Inter } from 'next/font/google';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
-import { locales } from '@/i18n/config';
+import { locales, defaultLocale } from '@/i18n/config';
 import '../globals.css';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -31,7 +31,7 @@ export async function generateMetadata({ params: { locale } }: { params: { local
     'x-default': `${baseUrl}/en`,
   };
 
-  const canonicalUrl = `${baseUrl}/${locale}`;
+  const canonicalUrl = locale === defaultLocale ? baseUrl : `${baseUrl}/${locale}`;
 
   return {
     title: meta?.title || 'Piazza del Popolo, Ascoli Piceno',

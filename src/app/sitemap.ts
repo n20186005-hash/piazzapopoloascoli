@@ -1,5 +1,5 @@
 import { MetadataRoute } from 'next';
-import { locales } from '@/i18n/config';
+import { locales, defaultLocale } from '@/i18n/config';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://www.piazzapopoloascoli.com';
@@ -14,14 +14,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const sitemapEntries: MetadataRoute.Sitemap = [];
 
-  // Add the base url (redirects to default locale or auto-detects)
-  sitemapEntries.push({
-    url: baseUrl,
-    lastModified: new Date(),
-    changeFrequency: 'monthly',
-    priority: 1,
-  });
-
   // Generate sitemap entries for all locales and routes
   routes.forEach((route) => {
     locales.forEach((locale) => {
@@ -31,8 +23,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       // Determine frequency
       const changeFrequency = route === '' ? 'weekly' : 'monthly';
       
+      // If it's the default locale, we don't use the prefix because of 'as-needed' setting in middleware
+      const urlPath = locale === defaultLocale ? route : `/${locale}${route}`;
+      
       sitemapEntries.push({
-        url: `${baseUrl}/${locale}${route}`,
+        url: `${baseUrl}${urlPath}`,
         lastModified: new Date(),
         changeFrequency,
         priority,

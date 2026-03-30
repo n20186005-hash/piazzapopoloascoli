@@ -1,5 +1,6 @@
 import { useLocale } from 'next-intl';
 import Link from 'next/link';
+import { defaultLocale } from '@/i18n/config';
 
 export async function generateMetadata({ params: { locale } }: { params: { locale: string } }) {
   const baseUrl = 'https://www.piazzapopoloascoli.com';
@@ -13,10 +14,12 @@ export async function generateMetadata({ params: { locale } }: { params: { local
     'x-default': `${baseUrl}/en${path}`,
   };
 
+  const canonicalUrl = locale === defaultLocale ? `${baseUrl}${path}` : `${baseUrl}/${locale}${path}`;
+
   return {
     title: 'Privacy Policy - Piazza del Popolo',
     alternates: {
-      canonical: `${baseUrl}/${locale}${path}`,
+      canonical: canonicalUrl,
       languages: alternateLanguages,
     },
   };
