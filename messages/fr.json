@@ -35,6 +35,8 @@
   },
   "gallery": {
     "title": "Galerie Photos",
+    "description": "Galerie photo provenant de Google Maps, mise à jour en 2026. Pour voir toutes les images, cliquez sur la flèche pour accéder à",
+    "viewAll": "Tout afficher",
     "photos": [
       {"caption": "Vue panoramique de la place au coucher du soleil"},
       {"caption": "Palazzo dei Capitani del Popolo"},

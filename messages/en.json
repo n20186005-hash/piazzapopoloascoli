@@ -35,6 +35,8 @@
   },
   "gallery": {
     "title": "Photo Gallery",
+    "description": "Photo gallery sourced from Google Maps, last updated in 2026. To view all images, click the arrow to jump to",
+    "viewAll": "View all",
     "photos": [
       {"caption": "Panoramic view of the square at sunset"},
       {"caption": "Palazzo dei Capitani del Popolo"},

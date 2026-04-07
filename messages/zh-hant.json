@@ -35,6 +35,8 @@
   },
   "gallery": {
     "title": "攝影相簿",
+    "description": "照片集說明來自Google Maps，最近更新於2026年。如需查看所有圖片，請點擊箭頭跳轉連結到",
+    "viewAll": "查看所有",
     "photos": [
       {"caption": "日落時分的廣場全景"},
       {"caption": "Palazzo dei Capitani del Popolo"},

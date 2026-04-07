@@ -40,7 +40,7 @@ export default function Gallery() {
         
         {/* Updated description */}
         <p className="mb-8 text-base" style={{ color: 'var(--text-secondary)' }}>
-          照片集 说明來自Google Maps，最近更新於2026年。如需查看所有图片，請點擊箭头跳转連結到{' '}
+          {t('description')}{' '}
           <a
             href="https://maps.app.goo.gl/NCBMsSTGxfZUN5Rk9"
             target="_blank"
@@ -115,7 +115,7 @@ export default function Gallery() {
             style={{ color: 'var(--text-primary)' }}
             title="View all on Google Maps"
           >
-            <span className="text-sm font-medium">查看所有</span>
+            <span className="text-sm font-medium">{t('viewAll')}</span>
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
               <polyline points="15 3 21 3 21 9"></polyline>

@@ -35,6 +35,8 @@
   },
   "gallery": {
     "title": "Galleria Fotografica",
+    "description": "Galleria fotografica da Google Maps, aggiornata nel 2026. Per visualizzare tutte le immagini, clicca la freccia per saltare a",
+    "viewAll": "Visualizza tutto",
     "photos": [
       {"caption": "Vista panoramica della piazza al tramonto"},
       {"caption": "Palazzo dei Capitani del Popolo"},
