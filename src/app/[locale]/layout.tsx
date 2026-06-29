@@ -17,6 +17,7 @@ export function generateStaticParams() {
 }
 
 export async function generateMetadata({ params: { locale } }: { params: { locale: string } }): Promise<Metadata> {
+  setRequestLocale(locale);
   const messages = await getMessages();
   const meta = (messages as Record<string, Record<string, string>>).meta;
 

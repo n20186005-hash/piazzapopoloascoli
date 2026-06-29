@@ -1,8 +1,10 @@
+import { setRequestLocale } from 'next-intl/server';
 import { useLocale } from 'next-intl';
 import Link from 'next/link';
 import { defaultLocale } from '@/i18n/config';
 
 export async function generateMetadata({ params: { locale } }: { params: { locale: string } }) {
+  setRequestLocale(locale);
   const baseUrl = 'https://www.piazzapopoloascoli.com';
   const path = '/privacy-policy';
 
@@ -25,8 +27,9 @@ export async function generateMetadata({ params: { locale } }: { params: { local
   };
 }
 
-export default function PrivacyPolicyPage() {
-  const locale = useLocale();
+export default function PrivacyPolicyPage({ params: { locale } }: { params: { locale: string } }) {
+  setRequestLocale(locale);
+  const currentLocale = useLocale();
 
   const content = {
     en: {
@@ -123,14 +126,14 @@ export default function PrivacyPolicyPage() {
     }
   };
 
-  const currentContent = content[locale as keyof typeof content] || content.en;
+  const currentContent = content[currentLocale as keyof typeof content] || content.en;
 
   return (
     <div className="section-spacing min-h-screen">
       <div className="max-w-3xl mx-auto px-6">
         <div className="mb-8">
           <Link 
-            href={`/${locale}`}
+            href={`/${currentLocale}`}
             className="inline-flex items-center gap-2 text-sm font-medium hover:opacity-80 transition-opacity"
             style={{ color: 'var(--accent)' }}
           >
