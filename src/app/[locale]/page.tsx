@@ -7,7 +7,8 @@ import Guide from '@/components/Guide';
 import MapEmbed from '@/components/MapEmbed';
 import Sources from '@/components/Sources';
 
-export default function HomePage({ params: { locale } }: { params: { locale: string } }) {
+export default async function HomePage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
   setRequestLocale(locale);
   return (
     <>

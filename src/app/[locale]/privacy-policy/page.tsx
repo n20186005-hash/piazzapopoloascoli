@@ -1,9 +1,9 @@
 import { setRequestLocale } from 'next-intl/server';
-import { useLocale } from 'next-intl';
 import Link from 'next/link';
 import { defaultLocale } from '@/i18n/config';
 
-export async function generateMetadata({ params: { locale } }: { params: { locale: string } }) {
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
   setRequestLocale(locale);
   const baseUrl = 'https://www.piazzapopoloascoli.com';
   const path = '/privacy-policy';
@@ -27,9 +27,10 @@ export async function generateMetadata({ params: { locale } }: { params: { local
   };
 }
 
-export default function PrivacyPolicyPage({ params: { locale } }: { params: { locale: string } }) {
+export default async function PrivacyPolicyPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
   setRequestLocale(locale);
-  const currentLocale = useLocale();
+  const currentLocale = locale;
 
   const content = {
     en: {
