@@ -11,7 +11,8 @@
     "map": "Mappa",
     "privacy": "Privacy Policy",
     "terms": "Termini di Servizio",
-    "cookies": "Impostazioni Cookie"
+    "cookies": "Impostazioni Cookie",
+    "menu": "Menu di navigazione"
   },
   "hero": {
     "title": "Piazza del Popolo",
@@ -44,7 +45,7 @@
   "gallery": {
     "title": "Galleria Fotografica",
     "description": "Le fotografie esistenti sono conservate. Autori, licenze e identificazione esatta delle scene sono ancora da verificare; le precedenti attribuzioni non erano documentate.",
-    "viewAll": "Luogo su Google Maps",
+    "viewAll": "Scheda del luogo su Google Maps",
     "photos": [
       {
         "caption": "Piazza lastricata con torre e portici"

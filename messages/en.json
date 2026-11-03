@@ -11,7 +11,8 @@
     "map": "Map",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
-    "cookies": "Cookie Settings"
+    "cookies": "Cookie Settings",
+    "menu": "Navigation menu"
   },
   "hero": {
     "title": "Piazza del Popolo",
@@ -44,7 +45,7 @@
   "gallery": {
     "title": "Photo Gallery",
     "description": "Existing photographs are retained. Their authors, licences and exact scene identifications have not yet been verified; the previous source claims could not be substantiated.",
-    "viewAll": "Place on Google Maps",
+    "viewAll": "Place listing on Google Maps",
     "photos": [
       {
         "caption": "Stone-paved square with a tower and arcades"

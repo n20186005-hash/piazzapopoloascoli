@@ -38,7 +38,7 @@ export default function Header() {
           <a href={`/${locale}#map`} className="hover:opacity-70 transition-opacity">{t('map')}</a>
         </nav>
         <div className="flex items-center gap-1">
-          <button className="md:hidden px-2 py-2" aria-label={t('guide')} aria-expanded={menuOpen} aria-controls="mobile-nav" onClick={()=>setMenuOpen(!menuOpen)}>☰</button>
+          <button className="md:hidden px-2 py-2" aria-label={t('menu')} aria-expanded={menuOpen} aria-controls="mobile-nav" onClick={()=>setMenuOpen(!menuOpen)}>☰</button>
           <ThemeToggle />
           <LanguageToggle />
         </div>

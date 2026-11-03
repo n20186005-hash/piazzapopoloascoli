@@ -11,7 +11,8 @@
     "map": "地圖",
     "privacy": "隱私政策",
     "terms": "服務條款",
-    "cookies": "Cookie 設定"
+    "cookies": "Cookie 設定",
+    "menu": "網站導覽選單"
   },
   "hero": {
     "title": "Piazza del Popolo",
@@ -44,7 +45,7 @@
   "gallery": {
     "title": "攝影相簿",
     "description": "原有照片完整保留，作者、授權及確切拍攝場景仍待核實；先前的來源聲明缺乏佐證。",
-    "viewAll": "查看 Google Maps 地點",
+    "viewAll": "Google Maps 地點條目",
     "photos": [
       {
         "caption": "設有塔樓與拱廊的石鋪廣場"
