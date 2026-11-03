@@ -1,6 +1,6 @@
 import Script from 'next/script';
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
+import localFont from 'next/font/local';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
@@ -10,7 +10,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ThemeProvider from '@/components/ThemeProvider';
 
-const inter = Inter({ subsets: ['latin'] });
+const inter = localFont({ src: '../fonts/GeistVF.woff' });
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
@@ -33,7 +33,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     'x-default': `${baseUrl}/en`,
   };
 
-  const canonicalUrl = locale === defaultLocale ? baseUrl : `${baseUrl}/${locale}`;
+  const canonicalUrl = `${baseUrl}/${locale}`;
 
   return {
     title: meta?.title || 'Piazza del Popolo, Ascoli Piceno',

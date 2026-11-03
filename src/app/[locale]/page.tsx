@@ -1,4 +1,5 @@
 import { setRequestLocale } from 'next-intl/server';
+import ArticleLinks from '@/components/ArticleLinks';
 import Hero from '@/components/Hero';
 import Intro from '@/components/Intro';
 import Gallery from '@/components/Gallery';
@@ -16,6 +17,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
       <Intro />
       <Gallery />
       <Reviews />
+      <ArticleLinks locale={locale} />
       <Guide />
       <MapEmbed />
       <Sources />

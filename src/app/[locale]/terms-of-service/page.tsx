@@ -16,10 +16,11 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     'x-default': `${baseUrl}/en${path}`,
   };
 
-  const canonicalUrl = locale === defaultLocale ? `${baseUrl}${path}` : `${baseUrl}/${locale}${path}`;
+  const canonicalUrl = `${baseUrl}/${locale}${path}`;
 
   return {
-    title: 'Terms of Service - Piazza del Popolo',
+    title: ({"it": "Condizioni di utilizzo", "en": "Terms of service", "fr": "Conditions d’utilisation", "zh-hant": "使用條款"} as Record<string,string>)[locale] + ' | Piazza del Popolo',
+    description: ({"it": "Condizioni di utilizzo", "en": "Terms of service", "fr": "Conditions d’utilisation", "zh-hant": "使用條款"} as Record<string,string>)[locale] + ' — Piazza del Popolo, Ascoli Piceno',
     alternates: {
       canonical: canonicalUrl,
       languages: alternateLanguages,

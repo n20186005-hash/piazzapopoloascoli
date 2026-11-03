@@ -42,3 +42,7 @@ yarn-error.log*
 
 # playwright
 /.playwright-cli/
+
+.open-next/
+.wrangler/
+.dev.vars*

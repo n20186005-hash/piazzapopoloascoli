@@ -5,7 +5,7 @@ import { useLocale } from 'next-intl';
 export default function Footer() {
   const t = useTranslations('footer');
   const locale = useLocale();
-  const prefix = locale === 'it' ? '' : `/${locale}`;
+  const prefix = `/${locale}`;
 
   return (
     <footer style={{ background: 'var(--bg-primary)', borderTop: '1px solid var(--border-color)' }}>

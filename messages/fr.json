@@ -11,16 +11,25 @@
     "map": "Carte",
     "privacy": "Politique de confidentialité",
     "terms": "Conditions d'utilisation",
-    "cookies": "Paramètres des cookies"
+    "cookies": "Paramètres des cookies",
+    "menu": "Menu de navigation"
   },
   "hero": {
     "title": "Piazza del Popolo",
     "subtitle": "Le salon Renaissance d'Ascoli Piceno",
     "rating": "4.7/5",
-    "ratingCount": "(16 016 avis)",
-    "openHours": "Ouvert 24h/24",
+    "ratingCount": "Google Maps · 2026-11-02",
+    "openHours": "Place extérieure ; vérifier les restrictions temporaires. Les intérieurs ont leurs propres horaires.",
     "openMaps": "Ouvrir dans Google Maps",
-    "keywords": ["Place", "Renaissance", "Travertin", "Caffè Meletti", "Palazzo dei Capitani", "Loggia dei Mercanti", "Portiques"]
+    "keywords": [
+      "Place",
+      "Renaissance",
+      "Travertin",
+      "Caffè Meletti",
+      "Palazzo dei Capitani",
+      "Loggia dei Mercanti",
+      "Portiques"
+    ]
   },
   "intro": {
     "title": "Découvrez la Place",
@@ -35,31 +44,61 @@
   },
   "gallery": {
     "title": "Galerie Photos",
-    "description": "Galerie photo provenant de Google Maps, mise à jour en 2026. Pour voir toutes les images, cliquez sur la flèche pour accéder à",
-    "viewAll": "Tout afficher",
+    "description": "Les photographies existantes sont conservées. Auteurs, licences et identification exacte des scènes restent à vérifier ; les anciennes attributions n’étaient pas documentées.",
+    "viewAll": "Fiche du lieu sur Google Maps",
     "photos": [
-      {"caption": "Vue panoramique de la place au coucher du soleil"},
-      {"caption": "Palazzo dei Capitani del Popolo"},
-      {"caption": "Caffè Meletti - intérieur Art Nouveau"},
-      {"caption": "Portiques Renaissance"},
-      {"caption": "Pavage en travertin"},
-      {"caption": "Loggia dei Mercanti"}
+      {
+        "caption": "Place pavée avec tour et arcades"
+      },
+      {
+        "caption": "Tour de pierre vue depuis une rue étroite"
+      },
+      {
+        "caption": "Grande place et façades à arcades"
+      },
+      {
+        "caption": "Place ouverte sous un ciel nuageux"
+      },
+      {
+        "caption": "Tables de café près d’une colonnade"
+      },
+      {
+        "caption": "Haute tour près d’un édifice crénelé"
+      },
+      {
+        "caption": "Extérieur d’église et clocher élancé"
+      },
+      {
+        "caption": "Façade à arcades au-delà du pavement"
+      },
+      {
+        "caption": "Édifice à tour vu depuis la place"
+      },
+      {
+        "caption": "Façade d’angle au soleil"
+      },
+      {
+        "caption": "Arcades éclairées la nuit"
+      },
+      {
+        "caption": "Façade d’église à trois entrées"
+      },
+      {
+        "caption": "Place avec décorations suspendues"
+      },
+      {
+        "caption": "Longues arcades vues depuis la place"
+      },
+      {
+        "caption": "Espace pavé près d’équipements de chantier"
+      }
     ]
   },
   "reviews": {
-    "title": "Avis de Visiteurs Réels",
-    "declaration": "Notes et avis provenant de Google Maps (dernière mise à jour : 2026). Nous n'affichons qu'une sélection d'avis vérifiés à score élevé. Pour consulter tous les avis complets et les plus récents, cliquez sur le lien ci-dessous.",
+    "title": "Note des visiteurs sur Google Maps",
+    "declaration": "Relevé public Google Maps : 4,7/5 pour 16 410 avis, vérifié le 2 novembre 2026. Il s’agit de la note du lieu sur un service tiers, pas d’avis recueillis par ce guide. Consultez Google Maps pour les avis actuels.",
     "moreLink": "Voir tous les avis sur Google Maps",
-    "items": [
-      {"name": "Marco R.", "date": "Mars 2026", "stars": 5, "text": "L'une des plus belles places d'Italie. L'atmosphère au coucher du soleil est magique, avec les portiques illuminés et le travertin qui devient doré."},
-      {"name": "Giulia S.", "date": "Février 2026", "stars": 5, "text": "Place merveilleuse ! Le Caffè Meletti est incontournable — goûtez l'anisette. L'architecture Renaissance est parfaitement conservée."},
-      {"name": "Thomas K.", "date": "Janvier 2026", "stars": 5, "text": "Incroyable que cette place soit si peu connue en dehors de l'Italie. Elle rivalise aisément avec les places les plus célèbres."},
-      {"name": "Yuki T.", "date": "Décembre 2025", "stars": 5, "text": "Le travertin blanc rend tout lumineux et élégant. Les portiques offrent un abri contre le soleil et la pluie. Parfaite en toute saison."},
-      {"name": "Alessandro M.", "date": "Novembre 2025", "stars": 4, "text": "Très belle place, lieu de rendez-vous de tous les habitants. La Quintana en août transforme la place en une scène médiévale."},
-      {"name": "Sophie L.", "date": "Octobre 2025", "stars": 5, "text": "Nous avons passé des heures assis aux terrasses à admirer l'architecture. Le Palazzo dei Capitani est imposant, la tour civique domine la place."},
-      {"name": "Hans W.", "date": "Septembre 2025", "stars": 5, "text": "Cette place est un chef-d'œuvre d'harmonie architecturale. Chaque bâtiment s'intègre parfaitement aux autres. À visiter absolument."},
-      {"name": "Chiara B.", "date": "Août 2025", "stars": 5, "text": "Pendant la Quintana, la place s'anime de couleurs médiévales. Mais même un jour ordinaire, c'est un lieu de paix et de beauté extraordinaire."}
-    ]
+    "items": []
   },
   "guide": {
     "title": "Guide de Visite",
@@ -69,39 +108,26 @@
     },
     "worthIt": {
       "title": "Cela vaut-il le détour ?",
-      "text": "Absolument. La Piazza del Popolo est considérée comme l'une des plus belles places d'Italie, souvent comparée à la Piazza San Marco pour son harmonie architecturale."
+      "text": "Regardez le Palazzo dei Capitani del Popolo, puis les formes gothiques de San Francesco et la Loggia dei Mercanti voisine. Terminez devant le Caffè Meletti. Comparez les détails : tous les édifices ne sont pas Renaissance. Pour une consommation, vérifiez le service et les prix du jour."
     },
     "whatInside": {
       "title": "Que trouve-t-on sur la place ?",
       "items": [
-        "Palazzo dei Capitani del Popolo - siège du pouvoir civique depuis le XIIIe siècle",
-        "Église San Francesco - gothique, dominant le côté ouest",
-        "Caffè Meletti - café historique Art Nouveau (depuis 1907)",
-        "Loggia dei Mercanti - élégante structure du XVIe siècle",
-        "Nombreux bars et restaurants sous les portiques"
+        "Regardez le Palazzo dei Capitani del Popolo, puis les formes gothiques de San Francesco et la Loggia dei Mercanti voisine. Terminez devant le Caffè Meletti. Comparez les détails : tous les édifices ne sont pas Renaissance. Pour une consommation, vérifiez le service et les prix du jour.",
+        "L’histoire municipale présente les édifices et l’évolution de la place. Si une entrée est fermée, observez l’église et la loggia de l’extérieur. Respectez offices et consignes dans l’église ; contactez directement le café pour son service. Aucun horaire ni billet non vérifié n’est annoncé ici."
       ]
     },
     "tips": {
       "title": "Conseils Pratiques",
       "items": [
-        "Visitez au coucher du soleil pour la plus belle lumière sur le travertin",
-        "La Quintana (premier dimanche d'août) est spectaculaire",
-        "Goûtez les olive ascolane dans les trattorias de la place",
-        "Le centre historique est piétonnier, facile à explorer à pied",
-        "Des parkings sont disponibles en périphérie du centre historique"
+        "La municipalité réglemente les zones piétonnes et les accès automobiles. Un itinéraire GPS ne constitue pas une autorisation. Consultez les règles municipales et les panneaux applicables à votre véhicule et à votre date. Vérifiez accès, tarifs et horaires auprès du parking choisi ; aucune place ni aucun prix ne sont garantis ici.",
+        "La place peut servir de pause lors d’une promenade plus longue : Italia.it l’intègre à son itinéraire d’Ascoli. Choisissez la suite selon votre temps et votre mobilité ; une courte visite suffit aussi. La pierre mouillée peut glisser et des travaux ou événements peuvent modifier le passage."
       ]
     },
     "comparison": {
-      "title": "Comparaison avec des Places Similaires",
-      "headers": ["Caractéristique", "Piazza del Popolo", "Piazza del Duomo (Trente)", "Piazza San Marco (Venise)"],
-      "rows": [
-        ["Époque", "Renaissance", "Médiévale-Renaissance", "Byzantine-Renaissance"],
-        ["Matériau", "Travertin", "Pierre locale", "Pierre d'Istrie"],
-        ["Portiques", "Trois côtés", "Partiels", "Trois côtés"],
-        ["Accès", "Gratuit 24h/24", "Gratuit 24h/24", "Gratuit 24h/24"],
-        ["Affluence", "Faible", "Moyenne", "Très élevée"],
-        ["Cafés historiques", "Caffè Meletti", "Divers", "Caffè Florian"]
-      ]
+      "title": "",
+      "headers": [],
+      "rows": []
     }
   },
   "map": {
@@ -111,7 +137,7 @@
   },
   "sources": {
     "title": "Données et Références",
-    "text": "Ce site est un projet indépendant de tiers à but d'information touristique. Les informations proviennent de sources publiques, notamment Google Maps, les offices de tourisme locaux et Wikipédia. Les photos proviennent d'Unsplash.",
+    "text": "Sources vérifiées le 2 novembre 2026",
     "disclaimer": "Nous ne sommes pas affiliés à la Municipalité d'Ascoli Piceno ni à aucun organisme officiel."
   },
   "footer": {
@@ -133,7 +159,7 @@
   },
   "privacy": {
     "title": "Politique de Confidentialité",
-    "content": "Ce site collecte un minimum de données de navigation via des cookies techniques pour assurer le bon fonctionnement du site. Nous ne collectons aucune donnée personnelle identifiable. Pour toute question relative à la confidentialité, contactez : claritleonelmnicol@gmail.com"
+    "content": "Ce site conserve le choix du thème dans le stockage local du navigateur. Le système de langue peut mémoriser la langue dans un cookie. L’hébergement reçoit les informations de requête nécessaires pour servir les pages. Les pages chargent du code publicitaire Google et intègrent Google Maps. Ces services reçoivent des informations de connexion et peuvent utiliser des cookies ou du stockage selon leurs politiques. Ce site ne dispose pas de commutateur fonctionnel de refus des analyses ou du marketing : utilisez les réglages du navigateur et les contrôles Google. Cette page ne promet pas de bloquer les requêtes vers des tiers."
   },
   "terms": {
     "title": "Conditions d'Utilisation",
@@ -141,6 +167,68 @@
   },
   "cookieSettings": {
     "title": "Paramètres des Cookies",
-    "content": "Ce site utilise uniquement des cookies techniques nécessaires au fonctionnement du site et pour mémoriser vos préférences de langue et de thème. Nous n'utilisons pas de cookies de suivi ni de cookies publicitaires."
+    "content": "Ce site conserve le choix du thème dans le stockage local du navigateur. Le système de langue peut mémoriser la langue dans un cookie. L’hébergement reçoit les informations de requête nécessaires pour servir les pages. Les pages chargent du code publicitaire Google et intègrent Google Maps. Ces services reçoivent des informations de connexion et peuvent utiliser des cookies ou du stockage selon leurs politiques. Ce site ne dispose pas de commutateur fonctionnel de refus des analyses ou du marketing : utilisez les réglages du navigateur et les contrôles Google. Cette page ne promet pas de bloquer les requêtes vers des tiers."
+  },
+  "articles": {
+    "title": "Préparer la visite",
+    "back": "Retour à la place",
+    "related": "Guides associés",
+    "checked": "Sources vérifiées le 2 novembre 2026",
+    "pages": {
+      "getting-here": {
+        "title": "Rejoindre Piazza del Popolo",
+        "intro": "Terminer à pied dans le centre historique",
+        "sections": [
+          [
+            "Terminer à pied dans le centre historique",
+            "La place se trouve dans le centre historique d’Ascoli Piceno. Choisissez Piazza del Popolo, 63100 Ascoli Piceno AP, sans la confondre avec les places homonymes d’autres villes. Prévoyez une approche à pied plutôt qu’une arrivée en voiture sur la place."
+          ],
+          [
+            "Voiture et stationnement",
+            "La municipalité réglemente les zones piétonnes et les accès automobiles. Un itinéraire GPS ne constitue pas une autorisation. Consultez les règles municipales et les panneaux applicables à votre véhicule et à votre date. Vérifiez accès, tarifs et horaires auprès du parking choisi ; aucune place ni aucun prix ne sont garantis ici."
+          ],
+          [
+            "Transports publics",
+            "Vérifiez les horaires de train ou de bus auprès de l’opérateur pour votre date, puis préparez séparément le dernier trajet. La place n’est ni la gare ni un point de dépose automobile garanti. Avec des bagages, prévoyez du temps et demandez à votre hébergement un éventuel accès autorisé."
+          ]
+        ]
+      },
+      "walking-route": {
+        "title": "Promenade libre autour de la place",
+        "intro": "Un circuit extérieur adaptable",
+        "sections": [
+          [
+            "Un circuit extérieur adaptable",
+            "Commencez dans l’espace ouvert pour regarder le pavement de travertin, puis rapprochez-vous des façades. Longez les portiques en laissant libres les entrées. Ce parcours suggéré n’est pas un itinéraire accessible mesuré et ne garantit pas l’ouverture de chaque passage."
+          ],
+          [
+            "Trois étapes à observer",
+            "Regardez le Palazzo dei Capitani del Popolo, puis les formes gothiques de San Francesco et la Loggia dei Mercanti voisine. Terminez devant le Caffè Meletti. Comparez les détails : tous les édifices ne sont pas Renaissance. Pour une consommation, vérifiez le service et les prix du jour."
+          ],
+          [
+            "Continuer ou faire une pause",
+            "La place peut servir de pause lors d’une promenade plus longue : Italia.it l’intègre à son itinéraire d’Ascoli. Choisissez la suite selon votre temps et votre mobilité ; une courte visite suffit aussi. La pierre mouillée peut glisser et des travaux ou événements peuvent modifier le passage."
+          ]
+        ]
+      },
+      "buildings-and-opening": {
+        "title": "Édifices et informations d’ouverture",
+        "intro": "La place et les intérieurs ont des règles distinctes",
+        "sections": [
+          [
+            "La place et les intérieurs ont des règles distinctes",
+            "Voir un bâtiment depuis la place ne garantit pas l’accès aux salles, au toit ou à la tour. Espace public, offices religieux, expositions et commerces ont chacun leurs conditions. Vérifiez auprès de l’opérateur avant de faire d’un intérieur le but principal du voyage."
+          ],
+          [
+            "Palazzo dei Capitani : vérifier avant d’entrer",
+            "Un avis officiel de reconstruction du 24 juillet 2026 signale des travaux au Palazzo dei Capitani. Il ne fournit pas de date de fin vérifiée pour ce guide. L’accès à la place ne prouve pas l’ouverture des intérieurs : confirmez programme, zones concernées et modalités d’admission auprès de la municipalité."
+          ],
+          [
+            "San Francesco, Loggia et Caffè Meletti",
+            "L’histoire municipale présente les édifices et l’évolution de la place. Si une entrée est fermée, observez l’église et la loggia de l’extérieur. Respectez offices et consignes dans l’église ; contactez directement le café pour son service. Aucun horaire ni billet non vérifié n’est annoncé ici."
+          ]
+        ]
+      }
+    }
   }
 }

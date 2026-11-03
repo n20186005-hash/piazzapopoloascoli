@@ -1,0 +1,32 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "piazzapopoloascoli",
+  "main": "custom-worker.mjs",
+  "compatibility_date": "2026-09-25",
+  "compatibility_flags": [
+    "nodejs_compat",
+    "global_fetch_strictly_public"
+  ],
+  "build": {
+    "command": "npx opennextjs-cloudflare build --skipNextBuild"
+  },
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS",
+    "run_worker_first": true
+  },
+  "services": [
+    {
+      "binding": "WORKER_SELF_REFERENCE",
+      "service": "piazzapopoloascoli"
+    }
+  ],
+  "images": {
+    "binding": "IMAGES"
+  },
+  "previews": {
+    "images": {
+      "binding": "IMAGES"
+    }
+  }
+}

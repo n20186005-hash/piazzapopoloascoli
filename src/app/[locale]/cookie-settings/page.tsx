@@ -1,7 +1,5 @@
-import { setRequestLocale } from 'next-intl/server';
-import { CookieSettingsClient } from './client';
-import { defaultLocale } from '@/i18n/config';
-
+import {setRequestLocale} from 'next-intl/server';
+import PrivacyInfo from '@/components/PrivacyInfo';
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   setRequestLocale(locale);
@@ -16,10 +14,11 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     'x-default': `${baseUrl}/en${path}`,
   };
 
-  const canonicalUrl = locale === defaultLocale ? `${baseUrl}${path}` : `${baseUrl}/${locale}${path}`;
+  const canonicalUrl = `${baseUrl}/${locale}${path}`;
 
   return {
-    title: 'Cookie Settings - Piazza del Popolo',
+    title: ({"it": "Cookie e memoria del browser", "en": "Cookies and browser storage", "fr": "Cookies et stockage du navigateur", "zh-hant": "Cookie 與瀏覽器儲存"} as Record<string,string>)[locale] + ' | Piazza del Popolo',
+    description: ({"it": "Cookie e memoria del browser", "en": "Cookies and browser storage", "fr": "Cookies et stockage du navigateur", "zh-hant": "Cookie 與瀏覽器儲存"} as Record<string,string>)[locale] + ' — Piazza del Popolo, Ascoli Piceno',
     alternates: {
       canonical: canonicalUrl,
       languages: alternateLanguages,
@@ -27,10 +26,4 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   };
 }
 
-export default async function CookieSettingsPage({ params }: { params: Promise<{ locale: string }> }) {
-  const { locale } = await params;
-  setRequestLocale(locale);
-
-  // Client-side component for state management
-  return <CookieSettingsClient locale={locale} />;
-}
+export default async function Page({params}:{params:Promise<{locale:string}>}){const {locale}=await params;return <PrivacyInfo locale={locale}/>;}
