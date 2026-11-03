@@ -17,7 +17,7 @@ npm run build
 npx wrangler deploy
 ```
 
-`npm run build` creates the Next.js production output. Wrangler's configured custom build then runs the pinned OpenNext adapter with `--skipNextBuild` to package that output. Running the deploy command alone after source changes is insufficient: always run the Next.js build first. To validate packaging without publishing, use `npx wrangler deploy --dry-run` after the build. `npx wrangler dev` serves the native local Worker runtime.
+`npm run build` creates the Next.js production output and packages it with the pinned OpenNext adapter using `--skipNextBuild`. Running the deploy command alone after source changes is insufficient: always run the complete build first. To validate packaging without publishing, use `npx wrangler deploy --dry-run` after the build. `npx wrangler dev` serves the native local Worker runtime.
 
 The checked-in configuration uses the existing ASSETS, IMAGES and WORKER_SELF_REFERENCE bindings. It does not create an R2 bucket. Static requests run through the Worker so canonical host redirects precede asset handling. No domains or security settings are managed by this repository.
 
