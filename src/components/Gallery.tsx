@@ -42,7 +42,7 @@ export default function Gallery() {
         <p className="mb-8 text-base" style={{ color: 'var(--text-secondary)' }}>
           {t('description')}{' '}
           <a
-            href="https://maps.app.goo.gl/NCBMsSTGxfZUN5Rk9"
+            href="https://maps.app.goo.gl/ooqk98sFgh3BTUbN8"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-500 hover:underline"
@@ -108,12 +108,12 @@ export default function Gallery() {
           
           {/* Link arrow to all images */}
           <a
-            href="https://maps.app.goo.gl/NCBMsSTGxfZUN5Rk9"
+            href="https://maps.app.goo.gl/ooqk98sFgh3BTUbN8"
             target="_blank"
             rel="noopener noreferrer"
             className="p-2 ml-4 rounded-full hover:bg-black/10 transition-colors flex items-center gap-2"
             style={{ color: 'var(--text-primary)' }}
-            title="View all on Google Maps"
+            title={t('viewAll')}
           >
             <span className="text-sm font-medium">{t('viewAll')}</span>
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">

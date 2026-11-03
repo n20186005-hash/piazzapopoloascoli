@@ -17,10 +17,18 @@
     "title": "Piazza del Popolo",
     "subtitle": "Il salotto rinascimentale di Ascoli Piceno",
     "rating": "4.7/5",
-    "ratingCount": "(16,016 recensioni)",
-    "openHours": "Aperto 24h/24",
+    "ratingCount": "Google Maps · 2026-11-02",
+    "openHours": "Piazza all’aperto; verifica restrizioni temporanee. Gli interni hanno orari distinti.",
     "openMaps": "Apri in Google Maps",
-    "keywords": ["Piazza", "Rinascimento", "Travertino", "Caffè Meletti", "Palazzo dei Capitani", "Loggia dei Mercanti", "Portici"]
+    "keywords": [
+      "Piazza",
+      "Rinascimento",
+      "Travertino",
+      "Caffè Meletti",
+      "Palazzo dei Capitani",
+      "Loggia dei Mercanti",
+      "Portici"
+    ]
   },
   "intro": {
     "title": "Scopri la Piazza",
@@ -35,31 +43,61 @@
   },
   "gallery": {
     "title": "Galleria Fotografica",
-    "description": "Galleria fotografica da Google Maps, aggiornata nel 2026. Per visualizzare tutte le immagini, clicca la freccia per saltare a",
-    "viewAll": "Visualizza tutto",
+    "description": "Le fotografie esistenti sono conservate. Autori, licenze e identificazione esatta delle scene sono ancora da verificare; le precedenti attribuzioni non erano documentate.",
+    "viewAll": "Luogo su Google Maps",
     "photos": [
-      {"caption": "Vista panoramica della piazza al tramonto"},
-      {"caption": "Palazzo dei Capitani del Popolo"},
-      {"caption": "Caffè Meletti - interno Art Nouveau"},
-      {"caption": "Portici rinascimentali"},
-      {"caption": "Pavimentazione in travertino"},
-      {"caption": "Loggia dei Mercanti"}
+      {
+        "caption": "Piazza lastricata con torre e portici"
+      },
+      {
+        "caption": "Torre in pietra vista da una strada stretta"
+      },
+      {
+        "caption": "Ampia piazza e facciate con portici"
+      },
+      {
+        "caption": "Piazza aperta sotto un cielo nuvoloso"
+      },
+      {
+        "caption": "Tavolini accanto a un colonnato in pietra"
+      },
+      {
+        "caption": "Alta torre accanto a un edificio merlato"
+      },
+      {
+        "caption": "Esterno di una chiesa con campanile"
+      },
+      {
+        "caption": "Facciata porticata oltre la pavimentazione"
+      },
+      {
+        "caption": "Edificio con torre visto dalla piazza"
+      },
+      {
+        "caption": "Facciata angolare illuminata dal sole"
+      },
+      {
+        "caption": "Portici illuminati di notte"
+      },
+      {
+        "caption": "Facciata di chiesa con tre ingressi"
+      },
+      {
+        "caption": "Piazza con decorazioni sospese"
+      },
+      {
+        "caption": "Lungo porticato visto dalla piazza"
+      },
+      {
+        "caption": "Area pavimentata accanto ad attrezzature di cantiere"
+      }
     ]
   },
   "reviews": {
-    "title": "Recensioni di Visitatori Reali",
-    "declaration": "Valutazioni e recensioni provenienti da Google Maps (ultimo aggiornamento: 2026). Mostriamo solo una selezione di recensioni verificate ad alto punteggio. Per tutte le recensioni complete e più recenti, clicca il link sottostante.",
+    "title": "Valutazione dei visitatori su Google Maps",
+    "declaration": "Rilevazione pubblica Google Maps: 4,7/5 su 16.410 recensioni, verificata il 2 novembre 2026. È una valutazione di terzi del luogo, non raccolta da questa guida. Consulta Google Maps per gli aggiornamenti.",
     "moreLink": "Vedi tutte le recensioni su Google Maps",
-    "items": [
-      {"name": "Marco R.", "date": "Marzo 2026", "stars": 5, "text": "Una delle piazze più belle d'Italia. L'atmosfera al tramonto è magica, con i portici illuminati e il travertino che diventa dorato."},
-      {"name": "Giulia S.", "date": "Febbraio 2026", "stars": 5, "text": "Piazza meravigliosa! Il Caffè Meletti è un must, prendete l'anisetta. Architettura rinascimentale perfettamente conservata."},
-      {"name": "Thomas K.", "date": "Gennaio 2026", "stars": 5, "text": "Incredibile come questa piazza sia così poco conosciuta fuori dall'Italia. Rivaleggia facilmente con le piazze più famose."},
-      {"name": "Yuki T.", "date": "Dicembre 2025", "stars": 5, "text": "Il travertino bianco rende tutto luminoso e elegante. I portici offrono riparo dal sole e dalla pioggia. Perfetta in ogni stagione."},
-      {"name": "Alessandro M.", "date": "Novembre 2025", "stars": 4, "text": "Bellissima piazza, punto di ritrovo per tutti gli ascolani. La Quintana di agosto trasforma la piazza in un palcoscenico medievale."},
-      {"name": "Sophie L.", "date": "Ottobre 2025", "stars": 5, "text": "Abbiamo passato ore seduti ai tavolini ammirando l'architettura. Il Palazzo dei Capitani è imponente, la torre civica domina la piazza."},
-      {"name": "Hans W.", "date": "Settembre 2025", "stars": 5, "text": "Questa piazza è un capolavoro di armonia architettonica. Ogni edificio si integra perfettamente con gli altri. Da visitare assolutamente."},
-      {"name": "Chiara B.", "date": "Agosto 2025", "stars": 5, "text": "Durante la Quintana la piazza si anima di colori medievali. Ma anche in un giorno qualunque è un luogo di pace e bellezza straordinaria."}
-    ]
+    "items": []
   },
   "guide": {
     "title": "Guida alla Visita",
@@ -69,39 +107,26 @@
     },
     "worthIt": {
       "title": "Vale la pena visitarla?",
-      "text": "Assolutamente sì. Piazza del Popolo è considerata una delle piazze più belle d'Italia, spesso paragonata a Piazza San Marco per l'armonia architettonica."
+      "text": "Osserva il Palazzo dei Capitani del Popolo, poi le forme gotiche di San Francesco e l’adiacente Loggia dei Mercanti. Termina davanti al Caffè Meletti. Confronta i dettagli: non tutti gli edifici appartengono al Rinascimento. Per una consumazione controlla servizio e prezzi attuali."
     },
     "whatInside": {
       "title": "Cosa si trova nella piazza?",
       "items": [
-        "Palazzo dei Capitani del Popolo - sede del potere civico dal XIII secolo",
-        "Chiesa di San Francesco - gotica, domina il lato ovest",
-        "Caffè Meletti - storico bar Art Nouveau (dal 1907)",
-        "Loggia dei Mercanti - elegante struttura del XVI secolo",
-        "Numerosi bar e ristoranti sotto i portici"
+        "Osserva il Palazzo dei Capitani del Popolo, poi le forme gotiche di San Francesco e l’adiacente Loggia dei Mercanti. Termina davanti al Caffè Meletti. Confronta i dettagli: non tutti gli edifici appartengono al Rinascimento. Per una consumazione controlla servizio e prezzi attuali.",
+        "La storia comunale descrive gli edifici e l’evoluzione della piazza. Se un ingresso non è disponibile, osserva chiesa e loggia dall’esterno. In chiesa rispetta celebrazioni e indicazioni; per il Caffè Meletti contatta l’attività. Non pubblichiamo orari o biglietti non verificati."
       ]
     },
     "tips": {
       "title": "Consigli Pratici",
       "items": [
-        "Visitate al tramonto per la luce migliore sul travertino",
-        "La Quintana (prima domenica di agosto) è spettacolare",
-        "Provate le olive ascolane nelle trattorie della piazza",
-        "Il centro storico è pedonale, comodo da esplorare a piedi",
-        "Parcheggi disponibili ai margini del centro storico"
+        "Il Comune disciplina aree pedonali e accessi dei veicoli. Un percorso del navigatore non autorizza l’ingresso. Prima di entrare nel centro consulta le regole comunali e la segnaletica per il tuo veicolo e la data del viaggio. Scegli una sosta consentita e verifica con il gestore accesso, tariffe e orari: questa guida non garantisce posti disponibili.",
+        "Usa la piazza come pausa in una passeggiata più ampia: Italia.it la include nel proprio itinerario ascolano. Scegli altre tappe secondo tempo e mobilità; anche una breve visita può bastare. La pietra bagnata può essere scivolosa e manifestazioni o lavori possono modificare il percorso."
       ]
     },
     "comparison": {
-      "title": "Confronto con Piazze Simili",
-      "headers": ["Caratteristica", "Piazza del Popolo", "Piazza del Duomo (Trento)", "Piazza San Marco (Venezia)"],
-      "rows": [
-        ["Epoca", "Rinascimentale", "Medievale-Rinascimentale", "Bizantina-Rinascimentale"],
-        ["Materiale", "Travertino", "Pietra locale", "Pietra d'Istria"],
-        ["Portici", "Tre lati", "Parziali", "Tre lati"],
-        ["Accesso", "Gratuito 24/7", "Gratuito 24/7", "Gratuito 24/7"],
-        ["Affollamento", "Basso", "Medio", "Molto alto"],
-        ["Bar storici", "Caffè Meletti", "Vari", "Caffè Florian"]
-      ]
+      "title": "",
+      "headers": [],
+      "rows": []
     }
   },
   "map": {
@@ -111,7 +136,7 @@
   },
   "sources": {
     "title": "Dati e Riferimenti",
-    "text": "Questo sito è un progetto indipendente di terze parti a scopo informativo turistico. Le informazioni provengono da fonti pubbliche tra cui Google Maps, enti turistici locali e Wikipedia. Le foto provengono da Unsplash.",
+    "text": "Fonti verificate il 2 novembre 2026",
     "disclaimer": "Non siamo affiliati con il Comune di Ascoli Piceno o altri enti ufficiali."
   },
   "footer": {
@@ -133,7 +158,7 @@
   },
   "privacy": {
     "title": "Privacy Policy",
-    "content": "Questo sito raccoglie dati minimi di navigazione tramite cookie tecnici per garantire il funzionamento del sito. Non raccogliamo dati personali identificabili. Per domande sulla privacy, contattare: claritleonelmnicol@gmail.com"
+    "content": "Questo sito salva la preferenza del tema nella memoria locale del browser. Il sistema linguistico può ricordare la lingua in un cookie. Il servizio di hosting riceve i dati di richiesta necessari per fornire le pagine. Le pagine caricano codice pubblicitario Google e incorporano Google Maps. Questi servizi ricevono informazioni di connessione e possono usare cookie o memoria secondo le proprie politiche. Il sito non dispone di interruttori operativi per rifiutare analisi o marketing: usa le impostazioni del browser e i controlli privacy Google. Questa pagina non promette di bloccare richieste a terzi."
   },
   "terms": {
     "title": "Termini di Servizio",
@@ -141,6 +166,68 @@
   },
   "cookieSettings": {
     "title": "Impostazioni Cookie",
-    "content": "Questo sito utilizza solo cookie tecnici necessari per il funzionamento del sito e per ricordare le preferenze di lingua e tema. Non utilizziamo cookie di tracciamento o pubblicitari."
+    "content": "Questo sito salva la preferenza del tema nella memoria locale del browser. Il sistema linguistico può ricordare la lingua in un cookie. Il servizio di hosting riceve i dati di richiesta necessari per fornire le pagine. Le pagine caricano codice pubblicitario Google e incorporano Google Maps. Questi servizi ricevono informazioni di connessione e possono usare cookie o memoria secondo le proprie politiche. Il sito non dispone di interruttori operativi per rifiutare analisi o marketing: usa le impostazioni del browser e i controlli privacy Google. Questa pagina non promette di bloccare richieste a terzi."
+  },
+  "articles": {
+    "title": "Organizza la visita",
+    "back": "Torna alla piazza",
+    "related": "Guide collegate",
+    "checked": "Fonti verificate il 2 novembre 2026",
+    "pages": {
+      "getting-here": {
+        "title": "Come arrivare in Piazza del Popolo",
+        "intro": "L’ultimo tratto a piedi nel centro storico",
+        "sections": [
+          [
+            "L’ultimo tratto a piedi nel centro storico",
+            "La piazza si trova nel centro storico di Ascoli Piceno. Imposta Piazza del Popolo, 63100 Ascoli Piceno AP: altre città italiane hanno piazze omonime. Organizza l’ultimo tratto a piedi, senza presumere di poter raggiungere la piazza in auto."
+          ],
+          [
+            "Auto e parcheggio",
+            "Il Comune disciplina aree pedonali e accessi dei veicoli. Un percorso del navigatore non autorizza l’ingresso. Prima di entrare nel centro consulta le regole comunali e la segnaletica per il tuo veicolo e la data del viaggio. Scegli una sosta consentita e verifica con il gestore accesso, tariffe e orari: questa guida non garantisce posti disponibili."
+          ],
+          [
+            "Trasporto pubblico",
+            "Controlla treni o autobus presso l’operatore per il giorno di viaggio e pianifica separatamente il percorso finale. La piazza non coincide con la stazione né con un punto di scarico autorizzato. Con bagagli considera più tempo e chiedi alla struttura ricettiva un eventuale accesso consentito."
+          ]
+        ]
+      },
+      "walking-route": {
+        "title": "Passeggiata autonoma nella piazza",
+        "intro": "Un percorso flessibile all’aperto",
+        "sections": [
+          [
+            "Un percorso flessibile all’aperto",
+            "Inizia dallo spazio aperto e osserva la pavimentazione in travertino prima di avvicinarti alle facciate. Percorri i portici lasciando liberi ingressi e passaggi. È un suggerimento di visita all’aperto, non un itinerario accessibile misurato né una garanzia di apertura di ogni passaggio."
+          ],
+          [
+            "Tre soste da osservare",
+            "Osserva il Palazzo dei Capitani del Popolo, poi le forme gotiche di San Francesco e l’adiacente Loggia dei Mercanti. Termina davanti al Caffè Meletti. Confronta i dettagli: non tutti gli edifici appartengono al Rinascimento. Per una consumazione controlla servizio e prezzi attuali."
+          ],
+          [
+            "Proseguire o fermarsi",
+            "Usa la piazza come pausa in una passeggiata più ampia: Italia.it la include nel proprio itinerario ascolano. Scegli altre tappe secondo tempo e mobilità; anche una breve visita può bastare. La pietra bagnata può essere scivolosa e manifestazioni o lavori possono modificare il percorso."
+          ]
+        ]
+      },
+      "buildings-and-opening": {
+        "title": "Edifici e informazioni di apertura",
+        "intro": "Piazza e interni hanno regole diverse",
+        "sections": [
+          [
+            "Piazza e interni hanno regole diverse",
+            "Vedere un edificio dalla piazza non garantisce l’accesso a sale, tetti o torri. Spazio pubblico, funzioni religiose, mostre e attività commerciali seguono modalità distinte. Verifica con il gestore prima di fare di una visita interna lo scopo principale del viaggio."
+          ],
+          [
+            "Palazzo dei Capitani: verifica prima di entrare",
+            "Una comunicazione ufficiale della ricostruzione del 24 luglio 2026 segnala lavori al Palazzo dei Capitani. Non offre a questa guida una data verificata di fine lavori. L’accesso alla piazza non dimostra l’apertura di tutti gli interni: verifica programma, aree interessate ed eventuali modalità d’ingresso con il Comune."
+          ],
+          [
+            "San Francesco, Loggia e Caffè Meletti",
+            "La storia comunale descrive gli edifici e l’evoluzione della piazza. Se un ingresso non è disponibile, osserva chiesa e loggia dall’esterno. In chiesa rispetta celebrazioni e indicazioni; per il Caffè Meletti contatta l’attività. Non pubblichiamo orari o biglietti non verificati."
+          ]
+        ]
+      }
+    }
   }
 }

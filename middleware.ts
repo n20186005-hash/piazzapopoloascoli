@@ -1,14 +1,13 @@
 import createMiddleware from 'next-intl/middleware';
+import {NextRequest, NextResponse} from 'next/server';
 import {locales, defaultLocale} from './src/i18n/config';
-
-export default createMiddleware({
-  locales,
-  defaultLocale,
-  localePrefix: 'as-needed' // Only adds prefix when it's not the default locale
-});
-
-export const config = {
-  // Skip all paths that should not be internationalized.
-  // This avoids redirect loops for static files like robots.txt and sitemap.xml
-  matcher: ['/((?!api|_next|.*\\..*).*)']
-};
+const intl = createMiddleware({locales, defaultLocale, localePrefix: 'always'});
+export default function middleware(request: NextRequest) {
+  const url = request.nextUrl.clone();
+  if (url.hostname === 'piazzapopoloascoli.com' || (url.hostname === 'www.piazzapopoloascoli.com' && (url.protocol === 'http:' || request.headers.get('x-forwarded-proto') === 'http'))) {
+    url.hostname = 'www.piazzapopoloascoli.com'; url.protocol = 'https:'; url.port = '';
+    return NextResponse.redirect(url, 308);
+  }
+  return intl(request);
+}
+export const config = {matcher: ['/((?!api|_next|.*\\..*).*)']};

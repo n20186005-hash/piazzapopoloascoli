@@ -31,7 +31,7 @@ export default function MapEmbed() {
 
         <div className="mt-6 text-center">
           <a
-            href="https://maps.app.goo.gl/ZzzAahVcrVHDG3ug6"
+            href="https://maps.app.goo.gl/ooqk98sFgh3BTUbN8"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-full text-sm font-medium transition-colors"

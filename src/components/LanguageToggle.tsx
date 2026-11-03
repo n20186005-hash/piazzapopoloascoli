@@ -37,7 +37,7 @@ export default function LanguageToggle() {
         break;
       }
     }
-    const newPath = newLocale === 'it' ? path : `/${newLocale}${path}`;
+    const newPath = `/${newLocale}${path === '/' ? '' : path}`;
     router.push(newPath);
     setIsOpen(false);
   };

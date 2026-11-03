@@ -1,36 +1,26 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Piazza del Popolo, Ascoli Piceno
 
-## Getting Started
+Independent visitor guide in Italian, English, French and Traditional Chinese.
+Every locale uses an explicit URL prefix (`/it`, `/en`, `/fr`, `/zh-hant`).
 
-First, run the development server:
+## Development
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+Run `npm ci`, then `npm run dev`. Fonts and the existing gallery photographs are served locally.
+
+## Cloudflare build
+
+The production pipeline runs these commands in this order:
+
+```sh
+npm ci
+npm run build
+npx wrangler deploy
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+`npm run build` creates the Next.js production output. Wrangler's configured custom build then runs the pinned OpenNext adapter with `--skipNextBuild` to package that output. Running the deploy command alone after source changes is insufficient: always run the Next.js build first. To validate packaging without publishing, use `npx wrangler deploy --dry-run` after the build. `npx wrangler dev` serves the native local Worker runtime.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The checked-in configuration uses the existing ASSETS, IMAGES and WORKER_SELF_REFERENCE bindings. It does not create an R2 bucket. Static requests run through the Worker so canonical host redirects precede asset handling. No domains or security settings are managed by this repository.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Editorial notes
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Guides link to municipal, national tourism and reconstruction sources. Public opening information for the outdoor square does not establish access to building interiors. Existing gallery photographs are retained; source, licence and scene identity remain subject to verification. Captions describe visible subjects without asserting a verified location or author.

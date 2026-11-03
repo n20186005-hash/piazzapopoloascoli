@@ -17,10 +17,18 @@
     "title": "Piazza del Popolo",
     "subtitle": "The Renaissance drawing room of Ascoli Piceno",
     "rating": "4.7/5",
-    "ratingCount": "(16,016 reviews)",
-    "openHours": "Open 24/7",
+    "ratingCount": "Google Maps · 2026-11-02",
+    "openHours": "Outdoor square; check temporary restrictions. Building interiors have separate hours.",
     "openMaps": "Open in Google Maps",
-    "keywords": ["Square", "Renaissance", "Travertine", "Caffè Meletti", "Palazzo dei Capitani", "Loggia dei Mercanti", "Porticoes"]
+    "keywords": [
+      "Square",
+      "Renaissance",
+      "Travertine",
+      "Caffè Meletti",
+      "Palazzo dei Capitani",
+      "Loggia dei Mercanti",
+      "Porticoes"
+    ]
   },
   "intro": {
     "title": "Discover the Square",
@@ -35,31 +43,61 @@
   },
   "gallery": {
     "title": "Photo Gallery",
-    "description": "Photo gallery sourced from Google Maps, last updated in 2026. To view all images, click the arrow to jump to",
-    "viewAll": "View all",
+    "description": "Existing photographs are retained. Their authors, licences and exact scene identifications have not yet been verified; the previous source claims could not be substantiated.",
+    "viewAll": "Place on Google Maps",
     "photos": [
-      {"caption": "Panoramic view of the square at sunset"},
-      {"caption": "Palazzo dei Capitani del Popolo"},
-      {"caption": "Caffè Meletti - Art Nouveau interior"},
-      {"caption": "Renaissance porticoes"},
-      {"caption": "Travertine paving"},
-      {"caption": "Loggia dei Mercanti"}
+      {
+        "caption": "Stone-paved square with a tower and arcades"
+      },
+      {
+        "caption": "Stone tower seen along a narrow street"
+      },
+      {
+        "caption": "Wide stone square and arcaded façades"
+      },
+      {
+        "caption": "Open square beneath a cloudy sky"
+      },
+      {
+        "caption": "Café tables beside a stone colonnade"
+      },
+      {
+        "caption": "Tall tower beside a crenellated building"
+      },
+      {
+        "caption": "Church exterior and slender bell tower"
+      },
+      {
+        "caption": "Arcaded façade across stone paving"
+      },
+      {
+        "caption": "Towered building viewed from the square"
+      },
+      {
+        "caption": "Corner façade lit by warm sunlight"
+      },
+      {
+        "caption": "Illuminated arcades at night"
+      },
+      {
+        "caption": "Stone church façade with three entrances"
+      },
+      {
+        "caption": "Square with overhead decorations"
+      },
+      {
+        "caption": "Long arcades viewed across the paving"
+      },
+      {
+        "caption": "Paved outdoor area beside construction equipment"
+      }
     ]
   },
   "reviews": {
-    "title": "Reviews from Real Visitors",
-    "declaration": "Ratings and reviews sourced from Google Maps (last updated: 2026). We only display a selection of verified high-scoring reviews. For all complete and most recent reviews, click the link below.",
+    "title": "Google Maps visitor rating",
+    "declaration": "Public Google Maps snapshot: 4.7/5 from 16,410 reviews, checked 2 November 2026. This is a third-party place rating, not a rating collected by this guide. Consult Google Maps for current reviews.",
     "moreLink": "See all reviews on Google Maps",
-    "items": [
-      {"name": "Marco R.", "date": "March 2026", "stars": 5, "text": "One of the most beautiful squares in Italy. The atmosphere at sunset is magical, with the illuminated porticoes and the travertine turning golden."},
-      {"name": "Giulia S.", "date": "February 2026", "stars": 5, "text": "Wonderful square! Caffè Meletti is a must-visit — try the anisetta. The Renaissance architecture is perfectly preserved."},
-      {"name": "Thomas K.", "date": "January 2026", "stars": 5, "text": "Incredible that this square is so little known outside Italy. It easily rivals the most famous piazzas."},
-      {"name": "Yuki T.", "date": "December 2025", "stars": 5, "text": "The white travertine makes everything bright and elegant. The porticoes offer shelter from both sun and rain. Perfect in every season."},
-      {"name": "Alessandro M.", "date": "November 2025", "stars": 4, "text": "Beautiful square, a gathering point for all locals. The Quintana festival in August transforms the piazza into a medieval stage."},
-      {"name": "Sophie L.", "date": "October 2025", "stars": 5, "text": "We spent hours sitting at the outdoor tables admiring the architecture. Palazzo dei Capitani is imposing, and the civic tower dominates the square."},
-      {"name": "Hans W.", "date": "September 2025", "stars": 5, "text": "This square is a masterpiece of architectural harmony. Every building blends perfectly with the others. An absolute must-visit."},
-      {"name": "Chiara B.", "date": "August 2025", "stars": 5, "text": "During the Quintana, the square comes alive with medieval colours. But even on an ordinary day, it is a place of extraordinary peace and beauty."}
-    ]
+    "items": []
   },
   "guide": {
     "title": "Visitor Guide",
@@ -69,39 +107,26 @@
     },
     "worthIt": {
       "title": "Is it worth visiting?",
-      "text": "Absolutely. Piazza del Popolo is considered one of the most beautiful squares in Italy, often compared to Piazza San Marco for its architectural harmony."
+      "text": "Look at Palazzo dei Capitani del Popolo and its civic presence, then the Gothic forms of San Francesco and the adjacent Loggia dei Mercanti. Finish at the façade of Caffè Meletti. Compare the different architectural details instead of treating every building as Renaissance. Entering a café means checking its current service and prices."
     },
     "whatInside": {
       "title": "What can you find in the square?",
       "items": [
-        "Palazzo dei Capitani del Popolo - seat of civic power since the 13th century",
-        "Church of San Francesco - Gothic, dominating the western side",
-        "Caffè Meletti - historic Art Nouveau café (since 1907)",
-        "Loggia dei Mercanti - elegant 16th-century structure",
-        "Numerous bars and restaurants under the porticoes"
+        "Look at Palazzo dei Capitani del Popolo and its civic presence, then the Gothic forms of San Francesco and the adjacent Loggia dei Mercanti. Finish at the façade of Caffè Meletti. Compare the different architectural details instead of treating every building as Renaissance. Entering a café means checking its current service and prices.",
+        "The municipal history describes the square’s buildings and development. View the church and loggia from outside if an entrance is unavailable. For a church interior, respect services and posted instructions; for Caffè Meletti, check the business directly. This guide does not publish unverified opening times or tickets."
       ]
     },
     "tips": {
       "title": "Practical Tips",
       "items": [
-        "Visit at sunset for the best light on the travertine",
-        "The Quintana festival (first Sunday of August) is spectacular",
-        "Try olive ascolane at the trattorias in the square",
-        "The historic centre is pedestrianised, easy to explore on foot",
-        "Parking is available on the outskirts of the old town"
+        "The municipality regulates pedestrian areas and restricted vehicle access. A navigation route is not permission to enter. Before driving into the centre, consult the municipal rules and signs for your vehicle and travel date. Choose a permitted parking location and check its operator for current access, charges and opening hours; this guide does not promise a space or a fare.",
+        "Use the square as a pause in a longer walk through Ascoli. Italia.it includes Piazza del Popolo in its Ascoli itinerary. Choose any further stops according to your time and mobility; a short look at the square can stand alone. Wet stone may be slippery, and an event or works can change your route."
       ]
     },
     "comparison": {
-      "title": "Comparison with Similar Squares",
-      "headers": ["Feature", "Piazza del Popolo", "Piazza del Duomo (Trento)", "Piazza San Marco (Venice)"],
-      "rows": [
-        ["Era", "Renaissance", "Medieval-Renaissance", "Byzantine-Renaissance"],
-        ["Material", "Travertine", "Local stone", "Istrian stone"],
-        ["Porticoes", "Three sides", "Partial", "Three sides"],
-        ["Access", "Free 24/7", "Free 24/7", "Free 24/7"],
-        ["Crowding", "Low", "Medium", "Very high"],
-        ["Historic cafés", "Caffè Meletti", "Various", "Caffè Florian"]
-      ]
+      "title": "",
+      "headers": [],
+      "rows": []
     }
   },
   "map": {
@@ -111,7 +136,7 @@
   },
   "sources": {
     "title": "Data and References",
-    "text": "This website is an independent third-party project for tourism information purposes. Information is sourced from public sources including Google Maps, local tourism authorities, and Wikipedia. Photos are sourced from Unsplash.",
+    "text": "Sources checked 2 November 2026",
     "disclaimer": "We are not affiliated with the Municipality of Ascoli Piceno or any other official body."
   },
   "footer": {
@@ -133,7 +158,7 @@
   },
   "privacy": {
     "title": "Privacy Policy",
-    "content": "This website collects minimal browsing data through technical cookies to ensure the site functions correctly. We do not collect personally identifiable data. For privacy enquiries, contact: claritleonelmnicol@gmail.com"
+    "content": "This site stores your theme preference in local browser storage. The language middleware may remember your language in a cookie. Hosting receives request information needed to serve pages. The pages load Google advertising code and embed Google Maps. Those external services receive connection information and may use cookies or other storage under their own policies. There is no working analytics or marketing opt-out switch on this site; use your browser settings and Google privacy controls. This page does not promise to block third-party requests."
   },
   "terms": {
     "title": "Terms of Service",
@@ -141,6 +166,68 @@
   },
   "cookieSettings": {
     "title": "Cookie Settings",
-    "content": "This website only uses technical cookies necessary for the site to function and to remember your language and theme preferences. We do not use tracking or advertising cookies."
+    "content": "This site stores your theme preference in local browser storage. The language middleware may remember your language in a cookie. Hosting receives request information needed to serve pages. The pages load Google advertising code and embed Google Maps. Those external services receive connection information and may use cookies or other storage under their own policies. There is no working analytics or marketing opt-out switch on this site; use your browser settings and Google privacy controls. This page does not promise to block third-party requests."
+  },
+  "articles": {
+    "title": "Plan your visit",
+    "back": "Back to the square",
+    "related": "Related guides",
+    "checked": "Sources checked 2 November 2026",
+    "pages": {
+      "getting-here": {
+        "title": "Getting to Piazza del Popolo",
+        "intro": "Arrive on foot in the historic centre",
+        "sections": [
+          [
+            "Arrive on foot in the historic centre",
+            "The square is in the historic centre of Ascoli Piceno. Use Piazza del Popolo, 63100 Ascoli Piceno AP as your destination; do not confuse it with squares of the same name in other Italian cities. The final approach is best planned as a walk, rather than a drive to the square itself."
+          ],
+          [
+            "Driving and parking",
+            "The municipality regulates pedestrian areas and restricted vehicle access. A navigation route is not permission to enter. Before driving into the centre, consult the municipal rules and signs for your vehicle and travel date. Choose a permitted parking location and check its operator for current access, charges and opening hours; this guide does not promise a space or a fare."
+          ],
+          [
+            "Coming by public transport",
+            "Check your rail or bus operator for the date of travel, then plan the last part to Piazza del Popolo separately. Do not treat the square as the railway station or a vehicle drop-off point. Allow extra time for luggage and ask your accommodation about an authorised drop-off if needed."
+          ]
+        ]
+      },
+      "walking-route": {
+        "title": "A self-guided walk around the square",
+        "intro": "A flexible route, without a timed ticket",
+        "sections": [
+          [
+            "A flexible route, without a timed ticket",
+            "Start in the open square and look across the travertine paving before approaching the façades. Walk along the porticoes, keeping shop entrances and pedestrian routes clear. This is a suggested outdoor circuit, not a measured accessible route or a promise that every passage is open."
+          ],
+          [
+            "Three stops to notice",
+            "Look at Palazzo dei Capitani del Popolo and its civic presence, then the Gothic forms of San Francesco and the adjacent Loggia dei Mercanti. Finish at the façade of Caffè Meletti. Compare the different architectural details instead of treating every building as Renaissance. Entering a café means checking its current service and prices."
+          ],
+          [
+            "Continue or pause",
+            "Use the square as a pause in a longer walk through Ascoli. Italia.it includes Piazza del Popolo in its Ascoli itinerary. Choose any further stops according to your time and mobility; a short look at the square can stand alone. Wet stone may be slippery, and an event or works can change your route."
+          ]
+        ]
+      },
+      "buildings-and-opening": {
+        "title": "Buildings and opening information",
+        "intro": "The square and the interiors have different rules",
+        "sections": [
+          [
+            "The square and the interiors have different rules",
+            "Seeing a building from Piazza del Popolo does not establish access to its rooms, roof or tower. The outdoor square, religious services, exhibitions and commercial premises each have their own arrangements. Check the relevant operator before making an interior visit the main purpose of a journey."
+          ],
+          [
+            "Palazzo dei Capitani: check before entering",
+            "An official reconstruction notice dated 24 July 2026 reports works on Palazzo dei Capitani. It does not provide a verified completion date for this guide. Do not infer that all interiors are open from the public access to the square; confirm the current programme, affected areas and any admission arrangements with the municipality."
+          ],
+          [
+            "San Francesco, Loggia and Caffè Meletti",
+            "The municipal history describes the square’s buildings and development. View the church and loggia from outside if an entrance is unavailable. For a church interior, respect services and posted instructions; for Caffè Meletti, check the business directly. This guide does not publish unverified opening times or tickets."
+          ]
+        ]
+      }
+    }
   }
 }
