@@ -3,6 +3,7 @@ import {notFound} from 'next/navigation';
 import {setRequestLocale} from 'next-intl/server';
 import {nearbyPlaces, nearbySlugs} from '@/data/nearby';
 import {nearbyExtra} from '@/data/nearby-extra';
+import nearbyPhotos from '@/data/nearby-photos.json';
 import {locales} from '@/i18n/config';
 
 const root='https://www.piazzapopoloascoli.com';
@@ -16,6 +17,7 @@ function Section({title,children}:{title:string,children:React.ReactNode}){retur
 export default async function NearbyDetail({params}:{params:Promise<{locale:string,slug:string}>}){
  const {locale,slug}=await params;setRequestLocale(locale);const place=nearbyPlaces.find(p=>p.slug===slug);if(!place)notFound();
  const extra=nearbyExtra[slug];if(!extra)notFound();
+ const photos=(nearbyPhotos as Record<string,{src:string;alt:string;source:string}[]>)[slug]??[];
  const maps=`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(extra.mapQuery)}`;
  const other=nearbyPlaces.filter(p=>p.slug!==slug).sort((a,b)=>Number(b.area===place.area)-Number(a.area===place.area)).slice(0,4);
  const stops=place.route.split(' → ');
@@ -28,6 +30,7 @@ export default async function NearbyDetail({params}:{params:Promise<{locale:stri
    <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4">{place.name}</h1><p className="text-xl mb-6">{place.lead}</p>
    <div className="flex flex-wrap gap-3 text-sm"><span className="rounded-full border px-4 py-2">Visita suggerita: {place.minutes}</span><span className="rounded-full border px-4 py-2">{isOpenAir?'Percorso esterno':'Accesso: informazioni sul posto'}</span><a className="rounded-full border px-4 py-2 underline" href={maps} target="_blank" rel="noopener noreferrer">{`Google Maps · ${place.name}`} ↗</a></div>
   </header>
+  {photos.length>0&&<section aria-label={`Fotografie di ${place.name}`} className="mb-12"><h2 className="text-2xl font-semibold mb-5">{place.name} in fotografia</h2><p className="mb-6" style={{color:'var(--text-secondary)'}}>Immagini del monumento e dei suoi dettagli. Apri la fonte sotto ogni fotografia per maggiori informazioni sullo scatto.</p><div className="grid sm:grid-cols-2 gap-5">{photos.map((photo,i)=><figure key={photo.src} className={`overflow-hidden rounded-2xl border ${i===0&&photos.length>1?'sm:col-span-2':''}`} style={{borderColor:'var(--border-color)',background:'var(--bg-card)'}}><img src={photo.src} alt={`${place.name} — ${photo.alt}`} loading={i===0?'eager':'lazy'} decoding="async" className={`w-full object-cover ${i===0?'max-h-[540px]':'h-64'}`}/><figcaption className="px-4 py-3 text-sm" style={{color:'var(--text-secondary)'}}><span>{place.name} · {photo.alt}</span><a href={photo.source} target="_blank" rel="noopener noreferrer" className="block underline mt-1">Scheda fotografica ↗</a></figcaption></figure>)}</div></section>}
   <div className="max-w-3xl mx-auto">
    <Section title={`Esplora ${place.name}`}><p>{place.lead} {place.experience}</p><p className="mt-4">{extra.context}</p><p className="mt-4">In questa guida trovi il contesto storico, i dettagli da osservare, una sequenza di tappe a piedi e le informazioni pratiche per inserire il luogo nel tuo itinerario ad Ascoli Piceno.</p></Section>
    <Section title="Come organizzare la visita"><p>{place.visit}</p><p className="mt-4">Considera circa {place.minutes} per questa tappa. Il tempo può essere distribuito fra osservazione delle facciate, lettura dei dettagli, fotografie e una pausa nel quartiere. Se desideri un itinerario più ampio, abbina il monumento ad altri luoghi che condividono lo stesso contesto storico.</p><p className="mt-4">{extra.tip}</p></Section>
