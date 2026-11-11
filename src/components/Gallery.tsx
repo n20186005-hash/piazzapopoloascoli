@@ -38,18 +38,9 @@ export default function Gallery() {
           {t('title')}
         </h2>
         
-        {/* Updated description */}
-        <p className="mb-8 text-base" style={{ color: 'var(--text-secondary)' }}>
-          {t('description')}{' '}
-          <a
-            href="https://maps.app.goo.gl/ooqk98sFgh3BTUbN8"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-500 hover:underline"
-          >
-            Google Maps
-          </a>
-        </p>
+        {/* Nota editoriale interna: le fotografie pubblicate sono mantenute integralmente.
+            Autori, licenze e identificazione delle scene richiedono ulteriori verifiche;
+            le precedenti attribuzioni non erano documentate. Non mostrare questa nota in UI. */}
 
         <div className="gallery-grid">
           {currentPhotos.map((photo, index) => {
